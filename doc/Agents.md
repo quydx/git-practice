@@ -2,7 +2,7 @@
 
 ### [Git-scm](https://git-scm.com/)
 
-![Right click](http://prntscr.com/gzd6sq)
+![Right click](https://image.prntscr.com/image/Ok_45lJKSHCs21Iu7NmNoQ.png)
 
 ###### Git GUI
 
