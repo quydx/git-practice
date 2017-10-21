@@ -117,7 +117,11 @@ Di chuyển file
 $ git mv file_from file_to
 ```
 
+<<<<<<< HEAD
 ## Git log 
+=======
+## Git history 
+>>>>>>> 391b80128862969de1653a83d380bc6fe4e14142
 
 Liệt kê các commit đã thực hiện trên repo đó, theo thứ tự commit mới nhất được hiển thị đầu tiên
 
@@ -125,6 +129,7 @@ Liệt kê các commit đã thực hiện trên repo đó, theo thứ tự commi
 $ git log
 ```
 
+<<<<<<< HEAD
 Một số tùy chọn sử dụng với `git log`
 Sử dụng `-p` để hiển thị diff của mỗi lần commit, `-2` để giới hạn 2 commit gần nhất, `--word-diff` cho phép hiển thì sai khác theo dòng, `--stat` hiển thị thống kê tóm tắt cho mỗi commit 
 
@@ -156,7 +161,6 @@ Giới hạn thông tin đầu ra
 | `--until, --before` | Giới hạn các commit được thực hiện trước ngày nhất định |
 | `--author`		  | Chỉ hiện thị các commit mà tên tác giả thoả mãn điều kiện nhất định |
 | `--committer`		  |	Chỉ hiện thị các commit mà tên người commit thoả mãn điều kiện nhất định |
-
 
 
 
