@@ -117,6 +117,7 @@ Di chuyển file
 $ git mv file_from file_to
 ```
 
+
 ## Git log 
 
 Liệt kê các commit đã thực hiện trên repo đó, theo thứ tự commit mới nhất được hiển thị đầu tiên
@@ -126,37 +127,35 @@ $ git log
 ```
 
 Một số tùy chọn sử dụng với `git log`
-Sử dụng `-p` để hiển thị diff của mỗi lần commit, `-2` để giới hạn 2 commit gần nhất, `--word-diff` cho phép hiển thì sai khác theo dòng, `--stat` hiển thị thống kê tóm tắt cho mỗi commit 
 
-|-------------------|-----------|
-|  Tùy chọn         |   Mô tả   |
-|-------------------|-----------|
-| `-p`		        | Hiển thị bản vá ở mỗi commit |
-| `--word-dif`      | Hiển thị bản vá ở định dạng tổng quan (word) |
-| `--stat`	        | Hiển thị thống kê của các tập tin được chỉnh sửa trong mỗi commit |
-| `--shortstat`     | 	Chỉ hiển thị thay đổi/thêm mới/xoá bằng lệnh --stat. |
-| `--name-only`     | Hiển thị danh sách các tập tin đã thay đổi sau thông tin của commit |
-| `--name-status`   | Hiển thị các tập tin bị ảnh hưởng với các thông tin như thêm mới/sửa/xoá |
-| `--abbrev-commit` | Chỉ hiện thị một số ký tự đầu của mã băm SHA-1 thay vì tất cả 40 |
+|-------------------|-------------------------------------------------------------------------------------|
+|  Tùy chọn         |   Mô tả                                                                             |
+|-------------------|-------------------------------------------------------------------------------------|
+| `-p`		        | Hiển thị bản vá ở mỗi commit                                                        |
+| `--word-dif`      | Hiển thị bản vá ở định dạng tổng quan (word)                                        |
+| `--stat`	        | Hiển thị thống kê của các tập tin được chỉnh sửa trong mỗi commit                   |
+| `--shortstat`     | 	Chỉ hiển thị thay đổi/thêm mới/xoá bằng lệnh --stat                               |
+| `--name-only`     | Hiển thị danh sách các tập tin đã thay đổi sau thông tin của commit                 |
+| `--name-status`   | Hiển thị các tập tin bị ảnh hưởng với các thông tin như thêm mới/sửa/xoá            |
+| `--abbrev-commit` | Chỉ hiện thị một số ký tự đầu của mã băm SHA-1 thay vì tất cả 40                    |
 | `--relative-date` | Hiển thị ngày ở định dạng tương đối (ví dụ, "2 weeks ago") thay vì định dạng đầy đủ |
 | `--graph`		    | Hiển thị biểu đồ ASCII của nhánh và lịch sử tích hợp cùng với thông tin đầu ra khác |
 | `--pretty` 	    | Hiện thị các commit sử dụng một định dạng khác. Các lựa chọn bao gồm oneline, short, full, fuller và format (cho phép bạn sử dụng định dạng riêng) |
-| `--oneline` 	    | Một lựa chọn ngắn, thuận tiện cho `--pretty=oneline` `--abbrev-commit` |
+| `--oneline` 	    | Một lựa chọn ngắn, thuận tiện cho `--pretty=oneline` `--abbrev-commit`              |
 
  
 Giới hạn thông tin đầu ra 
 
 `git log` nhận một số lựa chọn khác cho việc giới hạn thông tin xuất ra 
 
-|---------------------|--------------------------------|
-| Lựa chọn			  | Mô tả				   		   |
-|---------------------|--------------------------------|
-| `-(n)`			  | Chỉ hiển thị n commit mới nhất |
-| `--since, --after`  | Giới hạn các commit được thực hiện sau ngày nhất định |
-| `--until, --before` | Giới hạn các commit được thực hiện trước ngày nhất định |
-| `--author`		  | Chỉ hiện thị các commit mà tên tác giả thoả mãn điều kiện nhất định |
+|---------------------|--------------------------------------------------------------------------|
+| Lựa chọn			  | Mô tả												    		   		 |
+|---------------------|--------------------------------------------------------------------------|
+| `-(n)`			  | Chỉ hiển thị n commit mới nhất                							 |
+| `--since, --after`  | Giới hạn các commit được thực hiện sau ngày nhất định					 |
+| `--until, --before` | Giới hạn các commit được thực hiện trước ngày nhất định 				 |
+| `--author`		  | Chỉ hiện thị các commit mà tên tác giả thoả mãn điều kiện nhất định 	 |
 | `--committer`		  |	Chỉ hiện thị các commit mà tên người commit thoả mãn điều kiện nhất định |
-
 
 
 
