@@ -117,7 +117,6 @@ Di chuyển file
 $ git mv file_from file_to
 ```
 
-
 ## Git log 
 
 Liệt kê các commit đã thực hiện trên repo đó, theo thứ tự commit mới nhất được hiển thị đầu tiên
